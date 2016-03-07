@@ -28,7 +28,7 @@ git clone https://github.com/sid-saddala/TryDockerMavenPlugin.git
 cd TryDockerMavenPlugin
 ````
 
-* Build the docker image by executing the below maven command which uses Spotify's maven docker plugin which will use this [dockerfile](../src/main/docker/dockerfile).
+* Build the docker image by executing the below maven command which uses Spotify's maven docker plugin which will use this [dockerfile](../blob/master/src/main/docker/dockerfile).
 ````
 mvn clean package docker:build
 ````
