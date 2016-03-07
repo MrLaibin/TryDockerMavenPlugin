@@ -28,12 +28,12 @@ git clone https://github.com/sid-saddala/TryDockerMavenPlugin.git
 cd TryDockerMavenPlugin
 ````
 
-* Build the docker image by executing the below maven command which uses Spotify's maven docker plugin which will use this [dockerfile](../master/src/main/docker/dockerfile).
+* Build docker image for your app by executing the below maven command which uses Spotify's maven docker plugin which inturn use this [dockerfile](../master/src/main/docker/dockerfile).
 ````
 mvn clean package docker:build
 ````
 
-* You can see the mavem logs that the image with your app deployed to tomcat is being built
+* You can see the maven logs that the image with your app copied to tomcat is being built
 
 ````
 [INFO] --- maven-war-plugin:2.1.1:war (default-war) @ TrySpotifyApp ---
