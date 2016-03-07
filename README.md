@@ -1,5 +1,6 @@
 # TryDockerMavenPlugin
 
+### Prerequisites
 * Install Docker
 * Install Maven
 * Start Docker
@@ -18,6 +19,8 @@ REPOSITORY                  TAG                 IMAGE ID            CREATED     
 tomcat                      latest              00ca396ee1ca        3 days ago          356.9 MB
 hello-world                 latest              690ed74de00f        4 months ago        960 B
 ````
+
+### Setup Instructions
 
 * Clone the webapp
 ````
