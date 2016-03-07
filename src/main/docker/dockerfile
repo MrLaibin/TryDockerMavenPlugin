@@ -1,3 +1,4 @@
+
 FROM tomcat:latest
 
 COPY TrySpotifyApp.war /usr/local/tomcat/webapps/TrySpotifyApp.war
